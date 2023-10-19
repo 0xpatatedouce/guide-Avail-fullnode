@@ -1,5 +1,4 @@
 # guide-Avail-fullnode
-Tutoriel étape par étape pour l'installation d'un fullnode Avail
 Bonjour, avec ce tutoriel, vous pouvez exécuter un nœud complet Avail étape par étape. Vous aurez besoin d'une machine virtuelle Linux.
 guide en anglais: 
 
