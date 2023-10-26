@@ -1,6 +1,6 @@
 # guide-Avail-fullnode
 Bonjour, avec ce tutoriel, vous pouvez exécuter un nœud complet Avail étape par étape. Vous aurez besoin d'une machine virtuelle Linux.
-guide en anglais: 
+guide en anglais: https://github.com/0xpatatedouce/step-by-step-availfullnode/edit/main/README.md
 
 1)Configuration de votre environnement:
 Installation des dépendances requises :
@@ -43,7 +43,9 @@ Première méthode :
 cd avail
 screen -S avail
 ```
-
+```
+git checkout v1.7.2
+```
 ```
 cargo build --release -p data-avail
 ```
@@ -73,6 +75,8 @@ Vous devriez voir votre nœud en cours de synchronisation en gris comme dans l'e
 Deuxième méthode :
 ```
 mkdir -p output
+mkdir -p data
+git checkout v1.7.2
 cargo run --locked --release -- --chain kate -d ./output
 ```
 ![hh](https://github.com/0xpatatedouce/step-by-step-availfullnode/assets/123324096/f3a366e3-8e5d-45fd-9a16-98e73f800bf2)
