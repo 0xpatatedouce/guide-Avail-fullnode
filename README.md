@@ -62,7 +62,7 @@ cargo build --release
 
 5)Lancez le nœud :
 ```
-./target/release/data-avail --base-path `pwd`/data --chain kate --name patatedoucetest
+./target/release/data-avail --base-path `pwd`/data --chain goldberg --name patatedoucetest
 ```
 
 Remplacez "patatedouce" par le nom de votre nœud avant d'exécuter votre nœud.
