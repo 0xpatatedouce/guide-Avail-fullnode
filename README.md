@@ -44,7 +44,7 @@ cd avail
 screen -S avail
 ```
 ```
-git checkout v1.7.2
+git checkout v1.8.0.0
 ```
 ```
 cargo build --release -p data-avail
@@ -76,7 +76,7 @@ Deuxième méthode :
 ```
 mkdir -p output
 mkdir -p data
-git checkout v1.7.2
+git checkout v1.8.0.0
 cargo run --locked --release -- --chain goldberg -d ./output
 ```
 ![hh](https://github.com/0xpatatedouce/step-by-step-availfullnode/assets/123324096/f3a366e3-8e5d-45fd-9a16-98e73f800bf2)
